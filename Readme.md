@@ -4,7 +4,7 @@ Setup:
 <li>
 <ol><li>Copy file qemu-arm-static.conf to the /lib/binfmt.d
 If qemu-arm.conf exists in /lib/binfmt.d, rename it to qemu-arm.conf.unu.</li>
-<li>Or change qemu-arm to qemu-arm-static at the end of line.</li>
+<li>Or change qemu-arm to qemu-arm-static at the end of line in the /lib/binfmt.d/qemu-arm.conf.</li>
 </ol>
 </li>
 <li>run 'systemctl restart systemd-binfmt.service'</li>
